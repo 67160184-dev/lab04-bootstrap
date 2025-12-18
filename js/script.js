@@ -247,5 +247,21 @@ document.addEventListener("DOMContentLoaded", function () {
     } else {
       blogContent.innerHTML = "<p>ไม่พบบทความ</p>";
     }
+    // Create Blog Validation
+    const createBlogForm = document.getElementById("createBlogForm");
+
+    if (createBlogForm) {
+      createBlogForm.addEventListener("submit", function (e) {
+        e.preventDefault();
+        createBlogForm.classList.add("was-validated");
+
+        if (!createBlogForm.checkValidity()) {
+          return;
+        }
+
+        alert("สร้างบทความสำเร็จ (Mockup)");
+        window.location.href = "index.html";
+      });
+    }
   }
 });
