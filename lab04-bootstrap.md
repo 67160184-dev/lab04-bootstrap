@@ -50,7 +50,7 @@ lab04-bootstrap/
 ### หน้า Login (login.html)
 
 - ฟอร์มเข้าสู่ระบบแบบ Mockup
-- Login สำเร็จกลับหน้าแรก
+- Login สำเร็จกลับหน้าแรกgit add lab04-bootstrap.md
 
 ### หน้าสร้างบทความ (create-blog.html)
 
@@ -74,6 +74,3 @@ lab04-bootstrap/
 - ไม่มีการเชื่อมต่อฐานข้อมูลจริง
 
 ---
-
-**รายวิชา:** Web Development / Essential Skill
-**ปีการศึกษา:** 2025
